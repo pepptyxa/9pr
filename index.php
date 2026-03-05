@@ -3,7 +3,7 @@
     header("Access-Control-Allow-Methods: POST, GET, OPTIONS"); 
     header("Access-Control-Allow-Headers: Content-Type"); 
     header("Access-Control-Allow-Credentials: true");
-    include("connect_datebase.php");
+    include("settings/connect_datebase.php");
 
     $secret_key = "pepptyxa";
 
